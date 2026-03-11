@@ -1135,4 +1135,31 @@ margin-top:30px;
 margin-bottom:10px;
 font-size:18px;
 color:#0f172a;
+
+}
+
+body.dark-mode .skill-item{
+background:#1e293b;
+color:white;
+}
+
+body.dark-mode .skill-item span{
+color:#e2e8f0;
+}
+
+body.dark-mode .skill-item:hover{
+background:#273449;
+}
+
+body.dark-mode .resume-box{
+background:#0f172a;
+border:1px solid rgba(255,255,255,0.05);
+}
+
+body.dark-mode .resume-box h4{
+color:#e2e8f0;
+}
+
+body.dark-mode .skill-category{
+color:#7dd3fc;
 }
