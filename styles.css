@@ -1795,4 +1795,26 @@ box-shadow:0 10px 25px rgba(52,198,189,0.4);
 grid-template-columns:1fr;
 }
 
+
+}
+
+
+
+/* ===== CERTIFICATE TITLES DARK MODE FIX ===== */
+
+body.dark-mode .cert-content h3{
+color:#e6edf3;   /* light readable text */
+font-weight:600;
+}
+
+/* optional: make button text brighter in dark mode */
+
+body.dark-mode .cert-btn{
+border:2px solid #34c6bd;
+color:#5eead4;
+}
+
+body.dark-mode .cert-btn:hover{
+background:#34c6bd;
+color:#001a2c;
 }
